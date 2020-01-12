@@ -51,3 +51,12 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+header_pages:
+  - about.md
+
+nav_menus:
+  - title: 首页
+    path: /
+  - title: 训练
+    path: /train
