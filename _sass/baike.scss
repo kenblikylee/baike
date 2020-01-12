@@ -10,11 +10,12 @@ $base-line-height: 1.5 !default;
 
 $spacing-unit:     30px !default;
 
-$text-color:       #111 !default;
-$background-color: #fdfdfd !default;
+$text-color:       #828282 !default;
+$background-color: #fafafa !default;
 $brand-color:      #f9bc06 !default;
 
 $grey-color:       #828282 !default;
+$grey-color-text: lighten($grey-color, 10%) !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
@@ -47,5 +48,6 @@ $on-laptop:        800px !default;
 @import
   "baike/base",
   "baike/layout",
+  "baike/baike",
   "baike/syntax-highlighting"
 ;
